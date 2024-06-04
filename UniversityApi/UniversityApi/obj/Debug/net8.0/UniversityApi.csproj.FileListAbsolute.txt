@@ -169,3 +169,8 @@ C:\Users\elchin\Desktop\CodeLesson\API\2. 04-06-2024\PB302_API_1\UniversityApi\U
 C:\Users\elchin\Desktop\CodeLesson\API\2. 04-06-2024\PB302_API_1\UniversityApi\UniversityApi\obj\Debug\net8.0\Universi.5F6F81EE.Up2Date
 C:\Users\elchin\Desktop\CodeLesson\API\2. 04-06-2024\PB302_API_1\UniversityApi\UniversityApi\obj\Debug\net8.0\UniversityApi.genruntimeconfig.cache
 C:\Users\elchin\Desktop\CodeLesson\API\2. 04-06-2024\PB302_API_1\UniversityApi\UniversityApi\obj\Debug\net8.0\ref\UniversityApi.dll
+C:\Users\elchin\Desktop\CodeLesson\API\2. 04-06-2024\PB302_API_1\UniversityApi\UniversityApi\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\elchin\Desktop\CodeLesson\API\2. 04-06-2024\PB302_API_1\UniversityApi\UniversityApi\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+C:\Users\elchin\Desktop\CodeLesson\API\2. 04-06-2024\PB302_API_1\UniversityApi\UniversityApi\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\elchin\Desktop\CodeLesson\API\2. 04-06-2024\PB302_API_1\UniversityApi\UniversityApi\bin\Debug\net8.0\MicroElements.OpenApi.FluentValidation.dll
+C:\Users\elchin\Desktop\CodeLesson\API\2. 04-06-2024\PB302_API_1\UniversityApi\UniversityApi\bin\Debug\net8.0\MicroElements.Swashbuckle.FluentValidation.dll
