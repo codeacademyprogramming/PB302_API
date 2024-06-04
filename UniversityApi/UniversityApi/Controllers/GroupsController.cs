@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using UniversityApi.Data;
 using UniversityApi.Data.Entites;
 using UniversityApi.Dtos.GroupDtos;
 
@@ -9,33 +10,17 @@ namespace UniversityApi.Controllers
     [ApiController]
     public class GroupsController : ControllerBase
     {
-        public static List<Group> groups = new List<Group>();
-        public GroupsController()
+        private readonly UniversityDbContext _context;
+
+        public GroupsController(UniversityDbContext context)
         {
-            groups = new List<Group>
-            {
-                new Group
-                {
-                    No = "PB301",
-                    Id=1,
-                    Limit = 10,
-                    CreatedAt = DateTime.Now.AddYears(-1),
-                    ModifiedAt = DateTime.Now.AddMonths(-2)
-                },
-                new Group
-                {
-                    No = "PB302",
-                    Id=2,
-                    Limit = 14,
-                    CreatedAt = DateTime.Now.AddYears(-2),
-                    ModifiedAt = DateTime.Now.AddMonths(-4)
-                }
-            };
+            _context = context;
         }
+
         [HttpGet("")]
         public ActionResult<List<GroupGetDto>> GetAll()
         {
-            List<GroupGetDto> dtos = groups.Select(x => new GroupGetDto
+            List<GroupGetDto> dtos = _context.Groups.Select(x => new GroupGetDto
             {
                 Id = x.Id,
                 No = x.No,
@@ -50,7 +35,7 @@ namespace UniversityApi.Controllers
 
         public ActionResult<GroupGetDto> GetById(int id)
         {
-            var data = groups.Find(x => x.Id == id);
+            var data = _context.Groups.FirstOrDefault(x => x.Id == id && !x.IsDeleted);
 
             if(data == null)
             {
@@ -65,11 +50,24 @@ namespace UniversityApi.Controllers
             };
             return StatusCode(200, dto);
         }
+
         [HttpPost("")]
-        public ActionResult Create(Group group)
+        public ActionResult Create(GroupCreateDto createDto)
         {
-            groups.Add(group);
-            return StatusCode(201);
+            if (_context.Groups.Any(x => x.No == createDto.No && !x.IsDeleted))
+                return StatusCode(409);
+
+            var entity = new Group
+            {
+                Limit = createDto.Limit,
+                No = createDto.No,
+            };
+
+            _context.Groups.Add(entity);
+            _context.SaveChanges();
+
+
+            return StatusCode(201, new {Id=entity.Id});
         }
     }
 }

@@ -1,14 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\1. 03-06-2024\\UniversityApi\\",
+  "WorkspaceRootPath": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\2. 04-06-2024\\PB302_API_1\\UniversityApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B96C310D-D753-4C54-B3FA-C8D0205FE44A}|UniversityApi\\UniversityApi.csproj|c:\\users\\elchin\\desktop\\codelesson\\api\\1. 03-06-2024\\universityapi\\universityapi\\controllers\\groupscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B96C310D-D753-4C54-B3FA-C8D0205FE44A}|UniversityApi\\UniversityApi.csproj|c:\\users\\elchin\\desktop\\codelesson\\api\\2. 04-06-2024\\pb302_api_1\\universityapi\\universityapi\\dtos\\groupdtos\\groupcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B96C310D-D753-4C54-B3FA-C8D0205FE44A}|UniversityApi\\UniversityApi.csproj|solutionrelative:universityapi\\dtos\\groupdtos\\groupcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B96C310D-D753-4C54-B3FA-C8D0205FE44A}|UniversityApi\\UniversityApi.csproj|c:\\users\\elchin\\desktop\\codelesson\\api\\2. 04-06-2024\\pb302_api_1\\universityapi\\universityapi\\controllers\\groupscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B96C310D-D753-4C54-B3FA-C8D0205FE44A}|UniversityApi\\UniversityApi.csproj|solutionrelative:universityapi\\controllers\\groupscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B96C310D-D753-4C54-B3FA-C8D0205FE44A}|UniversityApi\\UniversityApi.csproj|c:\\users\\elchin\\desktop\\codelesson\\api\\1. 03-06-2024\\universityapi\\universityapi\\dtos\\groupdtos\\groupgetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B96C310D-D753-4C54-B3FA-C8D0205FE44A}|UniversityApi\\UniversityApi.csproj|solutionrelative:universityapi\\dtos\\groupdtos\\groupgetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B96C310D-D753-4C54-B3FA-C8D0205FE44A}|UniversityApi\\UniversityApi.csproj|c:\\users\\elchin\\desktop\\codelesson\\api\\2. 04-06-2024\\pb302_api_1\\universityapi\\universityapi\\data\\entites\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B96C310D-D753-4C54-B3FA-C8D0205FE44A}|UniversityApi\\UniversityApi.csproj|solutionrelative:universityapi\\data\\entites\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,28 +26,41 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GroupGetDto.cs",
-              "DocumentMoniker": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\1. 03-06-2024\\UniversityApi\\UniversityApi\\Dtos\\GroupDtos\\GroupGetDto.cs",
-              "RelativeDocumentMoniker": "UniversityApi\\Dtos\\GroupDtos\\GroupGetDto.cs",
-              "ToolTip": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\1. 03-06-2024\\UniversityApi\\UniversityApi\\Dtos\\GroupDtos\\GroupGetDto.cs",
-              "RelativeToolTip": "UniversityApi\\Dtos\\GroupDtos\\GroupGetDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAcAAAAAAAAA",
+              "DocumentIndex": 2,
+              "Title": "Group.cs",
+              "DocumentMoniker": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\2. 04-06-2024\\PB302_API_1\\UniversityApi\\UniversityApi\\Data\\Entites\\Group.cs",
+              "RelativeDocumentMoniker": "UniversityApi\\Data\\Entites\\Group.cs",
+              "ToolTip": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\2. 04-06-2024\\PB302_API_1\\UniversityApi\\UniversityApi\\Data\\Entites\\Group.cs",
+              "RelativeToolTip": "UniversityApi\\Data\\Entites\\Group.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T17:32:07.202Z",
+              "WhenOpened": "2024-06-04T15:55:38.9Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "GroupsController.cs",
-              "DocumentMoniker": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\1. 03-06-2024\\UniversityApi\\UniversityApi\\Controllers\\GroupsController.cs",
-              "RelativeDocumentMoniker": "UniversityApi\\Controllers\\GroupsController.cs",
-              "ToolTip": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\1. 03-06-2024\\UniversityApi\\UniversityApi\\Controllers\\GroupsController.cs",
-              "RelativeToolTip": "UniversityApi\\Controllers\\GroupsController.cs",
-              "ViewState": "AQIAADYAAAAAAAAAAAAqwEcAAAAjAAAA",
+              "Title": "GroupCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\2. 04-06-2024\\PB302_API_1\\UniversityApi\\UniversityApi\\Dtos\\GroupDtos\\GroupCreateDto.cs",
+              "RelativeDocumentMoniker": "UniversityApi\\Dtos\\GroupDtos\\GroupCreateDto.cs",
+              "ToolTip": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\2. 04-06-2024\\PB302_API_1\\UniversityApi\\UniversityApi\\Dtos\\GroupDtos\\GroupCreateDto.cs",
+              "RelativeToolTip": "UniversityApi\\Dtos\\GroupDtos\\GroupCreateDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T17:16:15.739Z",
+              "WhenOpened": "2024-06-04T15:44:51.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GroupsController.cs",
+              "DocumentMoniker": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\2. 04-06-2024\\PB302_API_1\\UniversityApi\\UniversityApi\\Controllers\\GroupsController.cs",
+              "RelativeDocumentMoniker": "UniversityApi\\Controllers\\GroupsController.cs",
+              "ToolTip": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\2. 04-06-2024\\PB302_API_1\\UniversityApi\\UniversityApi\\Controllers\\GroupsController.cs",
+              "RelativeToolTip": "UniversityApi\\Controllers\\GroupsController.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAwwDMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T15:38:32.242Z",
               "EditorCaption": ""
             }
           ]

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\1. 03-06-2024\\UniversityApi\\UniversityApi\\UniversityApi.csproj": {}
+    "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\2. 04-06-2024\\PB302_API_1\\UniversityApi\\UniversityApi\\UniversityApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\1. 03-06-2024\\UniversityApi\\UniversityApi\\UniversityApi.csproj": {
+    "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\2. 04-06-2024\\PB302_API_1\\UniversityApi\\UniversityApi\\UniversityApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\1. 03-06-2024\\UniversityApi\\UniversityApi\\UniversityApi.csproj",
+        "projectUniqueName": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\2. 04-06-2024\\PB302_API_1\\UniversityApi\\UniversityApi\\UniversityApi.csproj",
         "projectName": "UniversityApi",
-        "projectPath": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\1. 03-06-2024\\UniversityApi\\UniversityApi\\UniversityApi.csproj",
+        "projectPath": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\2. 04-06-2024\\PB302_API_1\\UniversityApi\\UniversityApi\\UniversityApi.csproj",
         "packagesPath": "C:\\Users\\elchin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\1. 03-06-2024\\UniversityApi\\UniversityApi\\obj\\",
+        "outputPath": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\2. 04-06-2024\\PB302_API_1\\UniversityApi\\UniversityApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -49,6 +49,16 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"

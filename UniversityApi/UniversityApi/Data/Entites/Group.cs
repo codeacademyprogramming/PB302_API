@@ -1,11 +1,10 @@
-﻿namespace UniversityApi.Data.Entites
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace UniversityApi.Data.Entites
 {
-    public class Group
+    public class Group:AuditEntity
     {
-        public int Id { get; set; }
-        public string No { get; set; }
+        public string? No { get; set; }
         public byte Limit { get; set; }
-        public DateTime CreatedAt { get; set; }
-        public DateTime ModifiedAt { get; set; }
     }
 }
