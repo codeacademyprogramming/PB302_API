@@ -20,7 +20,7 @@ namespace UniversityApi.Controllers
         [HttpGet("")]
         public ActionResult<List<GroupGetDto>> GetAll()
         {
-            List<GroupGetDto> dtos = _context.Groups.Select(x => new GroupGetDto
+            List<GroupGetDto> dtos = _context.Groups.Where(x=>!x.IsDeleted).Select(x => new GroupGetDto
             {
                 Id = x.Id,
                 No = x.No,
@@ -68,6 +68,36 @@ namespace UniversityApi.Controllers
 
 
             return StatusCode(201, new {Id=entity.Id});
+        }
+
+        [HttpPut("{id}")]
+        public ActionResult Update(int id, GroupUpdateDto updateDto)
+        {
+            var entity = _context.Groups.FirstOrDefault(x => x.Id == id && !x.IsDeleted);
+
+            if (entity == null) return NotFound();
+
+            if (entity.No!=updateDto.No &&  _context.Groups.Any(x => x.No == updateDto.No && !x.IsDeleted))
+                return Conflict();
+
+            entity.No = updateDto.No;
+            entity.Limit = updateDto.Limit;
+
+            _context.SaveChanges();
+            return NoContent();
+        }
+
+        [HttpDelete("{id}")]
+        public ActionResult Delete(int id)
+        {
+            var entity = _context.Groups.FirstOrDefault(x => x.Id == id && !x.IsDeleted);
+
+            if (entity == null) return NotFound();
+
+            entity.IsDeleted = true;
+            _context.SaveChanges();
+
+            return NoContent();
         }
     }
 }
