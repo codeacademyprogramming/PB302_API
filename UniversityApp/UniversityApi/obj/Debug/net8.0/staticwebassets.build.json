@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "4psFzW/aRVaufOSlREFo4CgK6phDCTrdwocHkA/7IIs=",
+  "Source": "UniversityApp.Api",
+  "BasePath": "_content/UniversityApp.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "UniversityApp.Api\\wwwroot",
+      "Source": "UniversityApp.Api",
+      "ContentRoot": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\4. 06-06-2024\\UniversityApp\\UniversityApi\\wwwroot\\",
+      "BasePath": "_content/UniversityApp.Api",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

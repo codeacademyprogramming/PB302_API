@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\4. 06-06-2024\\UniversityApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{440DA6C4-C0BF-42BC-8E29-C3849A253EEC}|UniversityApp.Service\\UniversityApp.Service.csproj|c:\\users\\elchin\\desktop\\codelesson\\api\\4. 06-06-2024\\universityapp\\universityapp.service\\implementations\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{440DA6C4-C0BF-42BC-8E29-C3849A253EEC}|UniversityApp.Service\\UniversityApp.Service.csproj|solutionrelative:universityapp.service\\implementations\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EA16B13-8611-4C98-B7ED-7708E68BB5D9}|UniversityApi\\UniversityApp.Api.csproj|c:\\users\\elchin\\desktop\\codelesson\\api\\4. 06-06-2024\\universityapp\\universityapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EA16B13-8611-4C98-B7ED-7708E68BB5D9}|UniversityApi\\UniversityApp.Api.csproj|solutionrelative:universityapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EA16B13-8611-4C98-B7ED-7708E68BB5D9}|UniversityApi\\UniversityApp.Api.csproj|c:\\users\\elchin\\desktop\\codelesson\\api\\4. 06-06-2024\\universityapp\\universityapi\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EA16B13-8611-4C98-B7ED-7708E68BB5D9}|UniversityApi\\UniversityApp.Api.csproj|solutionrelative:universityapi\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EA16B13-8611-4C98-B7ED-7708E68BB5D9}|UniversityApi\\UniversityApp.Api.csproj|c:\\users\\elchin\\desktop\\codelesson\\api\\4. 06-06-2024\\universityapp\\universityapi\\universityapp.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8EA16B13-8611-4C98-B7ED-7708E68BB5D9}|UniversityApi\\UniversityApp.Api.csproj|solutionrelative:universityapi\\universityapp.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{440DA6C4-C0BF-42BC-8E29-C3849A253EEC}|UniversityApp.Service\\UniversityApp.Service.csproj|c:\\users\\elchin\\desktop\\codelesson\\api\\4. 06-06-2024\\universityapp\\universityapp.service\\exceptions\\restexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{440DA6C4-C0BF-42BC-8E29-C3849A253EEC}|UniversityApp.Service\\UniversityApp.Service.csproj|solutionrelative:universityapp.service\\exceptions\\restexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{440DA6C4-C0BF-42BC-8E29-C3849A253EEC}|UniversityApp.Service\\UniversityApp.Service.csproj|c:\\users\\elchin\\desktop\\codelesson\\api\\4. 06-06-2024\\universityapp\\universityapp.service\\universityapp.service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{440DA6C4-C0BF-42BC-8E29-C3849A253EEC}|UniversityApp.Service\\UniversityApp.Service.csproj|solutionrelative:universityapp.service\\universityapp.service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EA16B13-8611-4C98-B7ED-7708E68BB5D9}|UniversityApi\\UniversityApp.Api.csproj|c:\\users\\elchin\\desktop\\codelesson\\api\\4. 06-06-2024\\universityapp\\universityapi\\middlewares\\exceptionhandlermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EA16B13-8611-4C98-B7ED-7708E68BB5D9}|UniversityApi\\UniversityApp.Api.csproj|solutionrelative:universityapi\\middlewares\\exceptionhandlermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UniversityApp.Api",
+              "DocumentMoniker": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\4. 06-06-2024\\UniversityApp\\UniversityApi\\UniversityApp.Api.csproj",
+              "RelativeDocumentMoniker": "UniversityApi\\UniversityApp.Api.csproj",
+              "ToolTip": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\4. 06-06-2024\\UniversityApp\\UniversityApi\\UniversityApp.Api.csproj",
+              "RelativeToolTip": "UniversityApi\\UniversityApp.Api.csproj",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAABkAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-06T17:25:56.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UniversityApp.Service",
+              "DocumentMoniker": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\4. 06-06-2024\\UniversityApp\\UniversityApp.Service\\UniversityApp.Service.csproj",
+              "RelativeDocumentMoniker": "UniversityApp.Service\\UniversityApp.Service.csproj",
+              "ToolTip": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\4. 06-06-2024\\UniversityApp\\UniversityApp.Service\\UniversityApp.Service.csproj",
+              "RelativeToolTip": "UniversityApp.Service\\UniversityApp.Service.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-06T17:17:27.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StudentService.cs",
+              "DocumentMoniker": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\4. 06-06-2024\\UniversityApp\\UniversityApp.Service\\Implementations\\StudentService.cs",
+              "RelativeDocumentMoniker": "UniversityApp.Service\\Implementations\\StudentService.cs",
+              "ToolTip": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\4. 06-06-2024\\UniversityApp\\UniversityApp.Service\\Implementations\\StudentService.cs",
+              "RelativeToolTip": "UniversityApp.Service\\Implementations\\StudentService.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAUwCwAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T16:54:33.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RestException.cs",
+              "DocumentMoniker": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\4. 06-06-2024\\UniversityApp\\UniversityApp.Service\\Exceptions\\RestException.cs",
+              "RelativeDocumentMoniker": "UniversityApp.Service\\Exceptions\\RestException.cs",
+              "ToolTip": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\4. 06-06-2024\\UniversityApp\\UniversityApp.Service\\Exceptions\\RestException.cs",
+              "RelativeToolTip": "UniversityApp.Service\\Exceptions\\RestException.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAIAwwBcAAABqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T16:54:19.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ExceptionHandlerMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\4. 06-06-2024\\UniversityApp\\UniversityApi\\Middlewares\\ExceptionHandlerMiddleware.cs",
+              "RelativeDocumentMoniker": "UniversityApi\\Middlewares\\ExceptionHandlerMiddleware.cs",
+              "ToolTip": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\4. 06-06-2024\\UniversityApp\\UniversityApi\\Middlewares\\ExceptionHandlerMiddleware.cs",
+              "RelativeToolTip": "UniversityApi\\Middlewares\\ExceptionHandlerMiddleware.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAwwDQAAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T16:38:45.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\4. 06-06-2024\\UniversityApp\\UniversityApi\\Program.cs",
+              "RelativeDocumentMoniker": "UniversityApi\\Program.cs",
+              "ToolTip": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\4. 06-06-2024\\UniversityApp\\UniversityApi\\Program.cs",
+              "RelativeToolTip": "UniversityApi\\Program.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAADwAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T15:41:17.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StudentsController.cs",
+              "DocumentMoniker": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\4. 06-06-2024\\UniversityApp\\UniversityApi\\Controllers\\StudentsController.cs",
+              "RelativeDocumentMoniker": "UniversityApi\\Controllers\\StudentsController.cs",
+              "ToolTip": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\4. 06-06-2024\\UniversityApp\\UniversityApi\\Controllers\\StudentsController.cs",
+              "RelativeToolTip": "UniversityApi\\Controllers\\StudentsController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T15:36:04.387Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+C:\Users\elchin\Desktop\CodeLesson\API\4. 06-06-2024\UniversityApp\UniversityApp.Core\bin\Debug\net8.0\UniversityApp.Core.deps.json
+C:\Users\elchin\Desktop\CodeLesson\API\4. 06-06-2024\UniversityApp\UniversityApp.Core\bin\Debug\net8.0\UniversityApp.Core.dll
+C:\Users\elchin\Desktop\CodeLesson\API\4. 06-06-2024\UniversityApp\UniversityApp.Core\bin\Debug\net8.0\UniversityApp.Core.pdb
+C:\Users\elchin\Desktop\CodeLesson\API\4. 06-06-2024\UniversityApp\UniversityApp.Core\obj\Debug\net8.0\UniversityApp.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\elchin\Desktop\CodeLesson\API\4. 06-06-2024\UniversityApp\UniversityApp.Core\obj\Debug\net8.0\UniversityApp.Core.AssemblyInfoInputs.cache
+C:\Users\elchin\Desktop\CodeLesson\API\4. 06-06-2024\UniversityApp\UniversityApp.Core\obj\Debug\net8.0\UniversityApp.Core.AssemblyInfo.cs
+C:\Users\elchin\Desktop\CodeLesson\API\4. 06-06-2024\UniversityApp\UniversityApp.Core\obj\Debug\net8.0\UniversityApp.Core.csproj.CoreCompileInputs.cache
+C:\Users\elchin\Desktop\CodeLesson\API\4. 06-06-2024\UniversityApp\UniversityApp.Core\obj\Debug\net8.0\UniversityApp.Core.dll
+C:\Users\elchin\Desktop\CodeLesson\API\4. 06-06-2024\UniversityApp\UniversityApp.Core\obj\Debug\net8.0\refint\UniversityApp.Core.dll
+C:\Users\elchin\Desktop\CodeLesson\API\4. 06-06-2024\UniversityApp\UniversityApp.Core\obj\Debug\net8.0\UniversityApp.Core.pdb
+C:\Users\elchin\Desktop\CodeLesson\API\4. 06-06-2024\UniversityApp\UniversityApp.Core\obj\Debug\net8.0\ref\UniversityApp.Core.dll
