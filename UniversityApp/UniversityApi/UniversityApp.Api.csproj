@@ -18,6 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="wwwroot\logs\" />
     <Folder Include="wwwroot\uploads\students\" />
   </ItemGroup>
 

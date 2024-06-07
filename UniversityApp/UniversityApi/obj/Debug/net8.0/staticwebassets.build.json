@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "4psFzW/aRVaufOSlREFo4CgK6phDCTrdwocHkA/7IIs=",
+  "Hash": "IuXuwHKH/opQYQ8ufg1sCQmqvdcubnF34lI8f/6Wbis=",
   "Source": "UniversityApp.Api",
   "BasePath": "_content/UniversityApp.Api",
   "Mode": "Default",
@@ -10,10 +10,30 @@
     {
       "Name": "UniversityApp.Api\\wwwroot",
       "Source": "UniversityApp.Api",
-      "ContentRoot": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\4. 06-06-2024\\UniversityApp\\UniversityApi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\05. 07-06-2024\\PB302_API_1\\UniversityApp\\UniversityApi\\wwwroot\\",
       "BasePath": "_content/UniversityApp.Api",
       "Pattern": "**"
     }
   ],
-  "Assets": []
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\05. 07-06-2024\\PB302_API_1\\UniversityApp\\UniversityApi\\wwwroot\\logs\\log1.txt",
+      "SourceId": "UniversityApp.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\05. 07-06-2024\\PB302_API_1\\UniversityApp\\UniversityApi\\wwwroot\\",
+      "BasePath": "_content/UniversityApp.Api",
+      "RelativePath": "logs/log1.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\logs\\log1.txt"
+    }
+  ]
 }

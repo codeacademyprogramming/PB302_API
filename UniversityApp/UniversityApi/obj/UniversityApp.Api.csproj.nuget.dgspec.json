@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\4. 06-06-2024\\UniversityApp\\UniversityApi\\UniversityApp.Api.csproj": {}
+    "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\05. 07-06-2024\\PB302_API_1\\UniversityApp\\UniversityApi\\UniversityApp.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\4. 06-06-2024\\UniversityApp\\UniversityApi\\UniversityApp.Api.csproj": {
+    "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\05. 07-06-2024\\PB302_API_1\\UniversityApp\\UniversityApi\\UniversityApp.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\4. 06-06-2024\\UniversityApp\\UniversityApi\\UniversityApp.Api.csproj",
+        "projectUniqueName": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\05. 07-06-2024\\PB302_API_1\\UniversityApp\\UniversityApi\\UniversityApp.Api.csproj",
         "projectName": "UniversityApp.Api",
-        "projectPath": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\4. 06-06-2024\\UniversityApp\\UniversityApi\\UniversityApp.Api.csproj",
+        "projectPath": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\05. 07-06-2024\\PB302_API_1\\UniversityApp\\UniversityApi\\UniversityApp.Api.csproj",
         "packagesPath": "C:\\Users\\elchin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\4. 06-06-2024\\UniversityApp\\UniversityApi\\obj\\",
+        "outputPath": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\05. 07-06-2024\\PB302_API_1\\UniversityApp\\UniversityApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\4. 06-06-2024\\UniversityApp\\UniversityApp.Service\\UniversityApp.Service.csproj": {
-                "projectPath": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\4. 06-06-2024\\UniversityApp\\UniversityApp.Service\\UniversityApp.Service.csproj"
+              "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\05. 07-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Service\\UniversityApp.Service.csproj": {
+                "projectPath": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\05. 07-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Service\\UniversityApp.Service.csproj"
               }
             }
           }
@@ -99,14 +99,14 @@
         }
       }
     },
-    "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\4. 06-06-2024\\UniversityApp\\UniversityApp.Core\\UniversityApp.Core.csproj": {
+    "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\05. 07-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Core\\UniversityApp.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\4. 06-06-2024\\UniversityApp\\UniversityApp.Core\\UniversityApp.Core.csproj",
+        "projectUniqueName": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\05. 07-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Core\\UniversityApp.Core.csproj",
         "projectName": "UniversityApp.Core",
-        "projectPath": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\4. 06-06-2024\\UniversityApp\\UniversityApp.Core\\UniversityApp.Core.csproj",
+        "projectPath": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\05. 07-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Core\\UniversityApp.Core.csproj",
         "packagesPath": "C:\\Users\\elchin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\4. 06-06-2024\\UniversityApp\\UniversityApp.Core\\obj\\",
+        "outputPath": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\05. 07-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -163,14 +163,14 @@
         }
       }
     },
-    "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\4. 06-06-2024\\UniversityApp\\UniversityApp.Data\\UniversityApp.Data.csproj": {
+    "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\05. 07-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Data\\UniversityApp.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\4. 06-06-2024\\UniversityApp\\UniversityApp.Data\\UniversityApp.Data.csproj",
+        "projectUniqueName": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\05. 07-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Data\\UniversityApp.Data.csproj",
         "projectName": "UniversityApp.Data",
-        "projectPath": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\4. 06-06-2024\\UniversityApp\\UniversityApp.Data\\UniversityApp.Data.csproj",
+        "projectPath": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\05. 07-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Data\\UniversityApp.Data.csproj",
         "packagesPath": "C:\\Users\\elchin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\4. 06-06-2024\\UniversityApp\\UniversityApp.Data\\obj\\",
+        "outputPath": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\05. 07-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -191,8 +191,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\4. 06-06-2024\\UniversityApp\\UniversityApp.Core\\UniversityApp.Core.csproj": {
-                "projectPath": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\4. 06-06-2024\\UniversityApp\\UniversityApp.Core\\UniversityApp.Core.csproj"
+              "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\05. 07-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Core\\UniversityApp.Core.csproj": {
+                "projectPath": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\05. 07-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Core\\UniversityApp.Core.csproj"
               }
             }
           }
@@ -243,14 +243,14 @@
         }
       }
     },
-    "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\4. 06-06-2024\\UniversityApp\\UniversityApp.Service\\UniversityApp.Service.csproj": {
+    "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\05. 07-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Service\\UniversityApp.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\4. 06-06-2024\\UniversityApp\\UniversityApp.Service\\UniversityApp.Service.csproj",
+        "projectUniqueName": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\05. 07-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Service\\UniversityApp.Service.csproj",
         "projectName": "UniversityApp.Service",
-        "projectPath": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\4. 06-06-2024\\UniversityApp\\UniversityApp.Service\\UniversityApp.Service.csproj",
+        "projectPath": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\05. 07-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Service\\UniversityApp.Service.csproj",
         "packagesPath": "C:\\Users\\elchin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\4. 06-06-2024\\UniversityApp\\UniversityApp.Service\\obj\\",
+        "outputPath": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\05. 07-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -271,8 +271,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\4. 06-06-2024\\UniversityApp\\UniversityApp.Data\\UniversityApp.Data.csproj": {
-                "projectPath": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\4. 06-06-2024\\UniversityApp\\UniversityApp.Data\\UniversityApp.Data.csproj"
+              "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\05. 07-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Data\\UniversityApp.Data.csproj": {
+                "projectPath": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\05. 07-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Data\\UniversityApp.Data.csproj"
               }
             }
           }

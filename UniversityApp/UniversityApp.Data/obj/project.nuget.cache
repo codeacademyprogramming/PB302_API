@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IKgDn46DbJlmqL/2drapJ+1HB2AZ54/VehZE/O+hGYOaQ9k+5hquq/u5/1xa/FYX2mREz2p1REifKp1vJYQCeA==",
+  "dgSpecHash": "AeIf03un4VKOWPa3wEEOm1k/ZN5hASgAvq3P2emTx/5mGWzyFSVBPz4wAkg2dQGAtLBg/EiSIrkziTf+JyPDDA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\4. 06-06-2024\\UniversityApp\\UniversityApp.Data\\UniversityApp.Data.csproj",
+  "projectFilePath": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\05. 07-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Data\\UniversityApp.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\elchin\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\elchin\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
