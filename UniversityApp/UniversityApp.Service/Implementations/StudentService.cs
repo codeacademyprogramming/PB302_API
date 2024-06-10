@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using UniversityApi.Data;
 using UniversityApp.Core.Entites;
+using UniversityApp.Data.Repositories;
+using UniversityApp.Data.Repositories.Interfaces;
 using UniversityApp.Service.Dtos.StudentDtos;
 using UniversityApp.Service.Exceptions;
 using UniversityApp.Service.Extentions;
@@ -18,18 +20,19 @@ namespace UniversityApp.Service.Implementations
     public class StudentService : IStudentService
     {
         private readonly UniversityDbContext _context;
-        private readonly IWebHostEnvironment _environment;
+        private readonly IGroupRepository _groupRepository;
 
-        public StudentService(UniversityDbContext context, IWebHostEnvironment environment)
+        public StudentService(UniversityDbContext context,IGroupRepository groupRepository)
         {
             _context = context;
-            _environment = environment;
+            _groupRepository = groupRepository;
         }
         public int Create(StudentCreateDto createDto)
         {
-            Group group = _context.Groups.Include(x => x.Students).FirstOrDefault(x => x.Id == createDto.GroupId && !x.IsDeleted);
+            //Group group = _context.Groups.Include(x => x.Students).FirstOrDefault(x => x.Id == createDto.GroupId && !x.IsDeleted);
+            Group group = _groupRepository.Get(x=>x.Id == createDto.GroupId && !x.IsDeleted,"Students");
 
-            if (group == null)
+            if (group == null)  
                 throw new RestException(StatusCodes.Status404NotFound, "GroupId", "Group not found by given GroupId");
 
             if (group.Limit <= group.Students.Count)
@@ -39,14 +42,13 @@ namespace UniversityApp.Service.Implementations
                 throw new RestException(StatusCodes.Status400BadRequest, "Email", "Student already exists by given Email");
 
 
-
             Student entity = new Student
             {
                 FullName = createDto.FullName,
                 Email = createDto.Email,
                 BirthDate = createDto.BirthDate,
                 GroupId = createDto.GroupId,
-                FileName = createDto.File.Save(_environment.WebRootPath,"/uploads/students")
+                FileName = createDto.File.Save("uploads/students")
             };
 
             _context.Students.Add(entity);

@@ -1,14 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\05. 07-06-2024\\PB302_API_1\\UniversityApp\\",
+  "WorkspaceRootPath": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\6. 10-06-2024\\PB302_API_1\\UniversityApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8EA16B13-8611-4C98-B7ED-7708E68BB5D9}|UniversityApi\\UniversityApp.Api.csproj|c:\\users\\elchin\\desktop\\codelesson\\api\\05. 07-06-2024\\pb302_api_1\\universityapp\\universityapi\\middlewares\\loggingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8EA16B13-8611-4C98-B7ED-7708E68BB5D9}|UniversityApi\\UniversityApp.Api.csproj|solutionrelative:universityapi\\middlewares\\loggingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{440DA6C4-C0BF-42BC-8E29-C3849A253EEC}|UniversityApp.Service\\UniversityApp.Service.csproj|c:\\users\\elchin\\desktop\\codelesson\\api\\6. 10-06-2024\\pb302_api_1\\universityapp\\universityapp.service\\implementations\\groupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{440DA6C4-C0BF-42BC-8E29-C3849A253EEC}|UniversityApp.Service\\UniversityApp.Service.csproj|solutionrelative:universityapp.service\\implementations\\groupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8EA16B13-8611-4C98-B7ED-7708E68BB5D9}|UniversityApi\\UniversityApp.Api.csproj|c:\\users\\elchin\\desktop\\codelesson\\api\\05. 07-06-2024\\pb302_api_1\\universityapp\\universityapi\\wwwroot\\logs\\log1.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{8EA16B13-8611-4C98-B7ED-7708E68BB5D9}|UniversityApi\\UniversityApp.Api.csproj|solutionrelative:universityapi\\wwwroot\\logs\\log1.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{440DA6C4-C0BF-42BC-8E29-C3849A253EEC}|UniversityApp.Service\\UniversityApp.Service.csproj|c:\\users\\elchin\\desktop\\codelesson\\api\\6. 10-06-2024\\pb302_api_1\\universityapp\\universityapp.service\\dtos\\groupdtos\\groupmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{440DA6C4-C0BF-42BC-8E29-C3849A253EEC}|UniversityApp.Service\\UniversityApp.Service.csproj|solutionrelative:universityapp.service\\dtos\\groupdtos\\groupmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{440DA6C4-C0BF-42BC-8E29-C3849A253EEC}|UniversityApp.Service\\UniversityApp.Service.csproj|c:\\users\\elchin\\desktop\\codelesson\\api\\6. 10-06-2024\\pb302_api_1\\universityapp\\universityapp.service\\dtos\\groupdtos\\groupcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{440DA6C4-C0BF-42BC-8E29-C3849A253EEC}|UniversityApp.Service\\UniversityApp.Service.csproj|solutionrelative:universityapp.service\\dtos\\groupdtos\\groupcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "log1.txt",
-              "DocumentMoniker": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\05. 07-06-2024\\PB302_API_1\\UniversityApp\\UniversityApi\\wwwroot\\logs\\log1.txt",
-              "RelativeDocumentMoniker": "UniversityApi\\wwwroot\\logs\\log1.txt",
-              "ToolTip": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\05. 07-06-2024\\PB302_API_1\\UniversityApp\\UniversityApi\\wwwroot\\logs\\log1.txt",
-              "RelativeToolTip": "UniversityApi\\wwwroot\\logs\\log1.txt",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-06-07T17:20:25.038Z",
+              "Title": "GroupMapper.cs",
+              "DocumentMoniker": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\6. 10-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Service\\Dtos\\GroupDtos\\GroupMapper.cs",
+              "RelativeDocumentMoniker": "UniversityApp.Service\\Dtos\\GroupDtos\\GroupMapper.cs",
+              "ToolTip": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\6. 10-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Service\\Dtos\\GroupDtos\\GroupMapper.cs",
+              "RelativeToolTip": "UniversityApp.Service\\Dtos\\GroupDtos\\GroupMapper.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwBgAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T17:14:32.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GroupCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\6. 10-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Service\\Dtos\\GroupDtos\\GroupCreateDto.cs",
+              "RelativeDocumentMoniker": "UniversityApp.Service\\Dtos\\GroupDtos\\GroupCreateDto.cs",
+              "ToolTip": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\6. 10-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Service\\Dtos\\GroupDtos\\GroupCreateDto.cs",
+              "RelativeToolTip": "UniversityApp.Service\\Dtos\\GroupDtos\\GroupCreateDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T17:14:16.108Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "LoggingMiddleware.cs",
-              "DocumentMoniker": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\05. 07-06-2024\\PB302_API_1\\UniversityApp\\UniversityApi\\Middlewares\\LoggingMiddleware.cs",
-              "RelativeDocumentMoniker": "UniversityApi\\Middlewares\\LoggingMiddleware.cs",
-              "ToolTip": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\05. 07-06-2024\\PB302_API_1\\UniversityApp\\UniversityApi\\Middlewares\\LoggingMiddleware.cs",
-              "RelativeToolTip": "UniversityApi\\Middlewares\\LoggingMiddleware.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwUAAAABAAAA",
+              "Title": "GroupService.cs",
+              "DocumentMoniker": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\6. 10-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Service\\Implementations\\GroupService.cs",
+              "RelativeDocumentMoniker": "UniversityApp.Service\\Implementations\\GroupService.cs",
+              "ToolTip": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\6. 10-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Service\\Implementations\\GroupService.cs",
+              "RelativeToolTip": "UniversityApp.Service\\Implementations\\GroupService.cs",
+              "ViewState": "AQIAADsAAAAAAAAAAAAIwEEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T15:45:08.445Z",
+              "WhenOpened": "2024-06-10T17:11:54.531Z",
               "EditorCaption": ""
             }
           ]

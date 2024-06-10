@@ -21,5 +21,18 @@ namespace UniversityApp.Service.Extentions
 
             return newFileName;
         }
+
+        public static string Save(this IFormFile file, string folder)
+        {
+            string newFileName = Guid.NewGuid().ToString() + file.FileName;
+            string path = Path.Combine(Directory.GetCurrentDirectory()+"/wwwroot", folder, newFileName);
+
+            using (FileStream fs = new FileStream(path, FileMode.Create))
+            {
+                file.CopyTo(fs);
+            }
+
+            return newFileName;
+        }
     }
 }
