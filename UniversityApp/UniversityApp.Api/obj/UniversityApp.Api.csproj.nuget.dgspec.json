@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\6. 10-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Api\\UniversityApp.Api.csproj": {}
+    "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\7. 11-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Api\\UniversityApp.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\6. 10-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Api\\UniversityApp.Api.csproj": {
+    "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\7. 11-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Api\\UniversityApp.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\6. 10-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Api\\UniversityApp.Api.csproj",
+        "projectUniqueName": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\7. 11-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Api\\UniversityApp.Api.csproj",
         "projectName": "UniversityApp.Api",
-        "projectPath": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\6. 10-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Api\\UniversityApp.Api.csproj",
+        "projectPath": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\7. 11-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Api\\UniversityApp.Api.csproj",
         "packagesPath": "C:\\Users\\elchin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\6. 10-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Api\\obj\\",
+        "outputPath": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\7. 11-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\6. 10-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Service\\UniversityApp.Service.csproj": {
-                "projectPath": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\6. 10-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Service\\UniversityApp.Service.csproj"
+              "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\7. 11-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Service\\UniversityApp.Service.csproj": {
+                "projectPath": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\7. 11-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Service\\UniversityApp.Service.csproj"
               }
             }
           }
@@ -60,6 +60,10 @@
             "MicroElements.Swashbuckle.FluentValidation": {
               "target": "Package",
               "version": "[6.0.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.6, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
@@ -99,14 +103,14 @@
         }
       }
     },
-    "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\6. 10-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Core\\UniversityApp.Core.csproj": {
+    "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\7. 11-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Core\\UniversityApp.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\6. 10-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Core\\UniversityApp.Core.csproj",
+        "projectUniqueName": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\7. 11-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Core\\UniversityApp.Core.csproj",
         "projectName": "UniversityApp.Core",
-        "projectPath": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\6. 10-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Core\\UniversityApp.Core.csproj",
+        "projectPath": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\7. 11-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Core\\UniversityApp.Core.csproj",
         "packagesPath": "C:\\Users\\elchin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\6. 10-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Core\\obj\\",
+        "outputPath": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\7. 11-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -143,6 +147,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -163,14 +173,14 @@
         }
       }
     },
-    "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\6. 10-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Data\\UniversityApp.Data.csproj": {
+    "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\7. 11-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Data\\UniversityApp.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\6. 10-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Data\\UniversityApp.Data.csproj",
+        "projectUniqueName": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\7. 11-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Data\\UniversityApp.Data.csproj",
         "projectName": "UniversityApp.Data",
-        "projectPath": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\6. 10-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Data\\UniversityApp.Data.csproj",
+        "projectPath": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\7. 11-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Data\\UniversityApp.Data.csproj",
         "packagesPath": "C:\\Users\\elchin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\6. 10-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Data\\obj\\",
+        "outputPath": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\7. 11-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -191,8 +201,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\6. 10-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Core\\UniversityApp.Core.csproj": {
-                "projectPath": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\6. 10-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Core\\UniversityApp.Core.csproj"
+              "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\7. 11-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Core\\UniversityApp.Core.csproj": {
+                "projectPath": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\7. 11-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Core\\UniversityApp.Core.csproj"
               }
             }
           }
@@ -243,14 +253,14 @@
         }
       }
     },
-    "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\6. 10-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Service\\UniversityApp.Service.csproj": {
+    "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\7. 11-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Service\\UniversityApp.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\6. 10-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Service\\UniversityApp.Service.csproj",
+        "projectUniqueName": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\7. 11-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Service\\UniversityApp.Service.csproj",
         "projectName": "UniversityApp.Service",
-        "projectPath": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\6. 10-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Service\\UniversityApp.Service.csproj",
+        "projectPath": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\7. 11-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Service\\UniversityApp.Service.csproj",
         "packagesPath": "C:\\Users\\elchin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\6. 10-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Service\\obj\\",
+        "outputPath": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\7. 11-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -271,8 +281,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\6. 10-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Data\\UniversityApp.Data.csproj": {
-                "projectPath": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\6. 10-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Data\\UniversityApp.Data.csproj"
+              "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\7. 11-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Data\\UniversityApp.Data.csproj": {
+                "projectPath": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\7. 11-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Data\\UniversityApp.Data.csproj"
               }
             }
           }
@@ -292,6 +302,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
             "FluentValidation.AspNetCore": {
               "target": "Package",
               "version": "[11.3.0, )"

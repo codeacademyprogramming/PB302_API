@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using AutoMapper;
+using Microsoft.AspNetCore.Http;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,21 +16,20 @@ namespace UniversityApp.Service.Implementations
     public class GroupService : IGroupService
     {
         private readonly IGroupRepository _groupRepository;
+        private readonly IMapper _mapper;
 
-        public GroupService(IGroupRepository groupRepository)
+        public GroupService(IGroupRepository groupRepository, IMapper mapper)
         {
             _groupRepository = groupRepository;
+            _mapper = mapper;
         }
         public int Create(GroupCreateDto createDto)
         {
             if (_groupRepository.Exists(x => x.No == createDto.No && !x.IsDeleted))
                 throw new RestException(StatusCodes.Status400BadRequest,"No", "No already taken");
 
-            Group entity = new Group
-            {
-                No = createDto.No,
-                Limit = createDto.Limit,
-            };
+            Group entity = _mapper.Map<Group>(createDto);
+
             _groupRepository.Add(entity);
             _groupRepository.Save();
 
@@ -50,23 +50,17 @@ namespace UniversityApp.Service.Implementations
 
         public List<GroupGetDto> GetAll(string? search=null)
         {
-            return _groupRepository.GetAll(x => x.No.Contains(search)).Select(x => new GroupGetDto
-            {
-                Id = x.Id,
-                No = x.No,
-                Limit = x.Limit
-            }).ToList();
+            var groups = _groupRepository.GetAll(x => search==null || x.No.Contains(search),"Students").ToList();
+            return _mapper.Map<List<GroupGetDto>>(groups);
         }
 
         public GroupGetDto GetById(int id)
         {
-            Group entity = _groupRepository.Get(x => x.Id == id && !x.IsDeleted);
+            Group entity = _groupRepository.Get(x => x.Id == id && !x.IsDeleted,includes:"Students");
 
             if (entity == null) throw new RestException(StatusCodes.Status404NotFound, "Group not found");
-
-
-            //return Mapper<Group, GroupGetDto>.Map(entity);
-            return GroupMapper.MapFromEntityToGetDto(entity);
+ 
+            return _mapper.Map<GroupGetDto>(entity);
         }
 
         public void Update(int id, GroupUpdateDto updateDto)

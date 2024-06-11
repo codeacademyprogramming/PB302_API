@@ -25,5 +25,11 @@ namespace UniversityApi.Controllers
         {
             return StatusCode(201, new { Id = _studentService.Create(createDto) });
         }
+
+        [HttpGet("{id}")]
+        public ActionResult Get(int id)
+        {
+            return Ok(_studentService.GetById(id));
+        }
     }
 }

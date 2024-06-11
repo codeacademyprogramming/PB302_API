@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Hosting;
+﻿using AutoMapper;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -21,11 +22,15 @@ namespace UniversityApp.Service.Implementations
     {
         private readonly UniversityDbContext _context;
         private readonly IGroupRepository _groupRepository;
+        private readonly IStudentRepository _studentRepository;
+        private readonly IMapper _mapper;
 
-        public StudentService(UniversityDbContext context,IGroupRepository groupRepository)
+        public StudentService(UniversityDbContext context,IGroupRepository groupRepository, IStudentRepository studentRepository,IMapper mapper)
         {
             _context = context;
             _groupRepository = groupRepository;
+            _studentRepository = studentRepository;
+            _mapper = mapper;
         }
         public int Create(StudentCreateDto createDto)
         {
@@ -55,6 +60,16 @@ namespace UniversityApp.Service.Implementations
             _context.SaveChanges();
 
             return entity.Id;
+        }
+
+        public StudentGetDto GetById(int id)
+        {
+            Student entity = _studentRepository.Get(x => x.Id == id && !x.IsDeleted);
+
+            if (entity == null) throw new RestException(StatusCodes.Status404NotFound, "Student not found by given id");
+
+            return _mapper.Map<StudentGetDto>(entity);
+
         }
     }
 }

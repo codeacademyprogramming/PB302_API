@@ -10,5 +10,6 @@ namespace UniversityApp.Service.Interfaces
     public interface IStudentService
     {
         int Create(StudentCreateDto createDto);
+        StudentGetDto GetById(int id);
     }
 }
