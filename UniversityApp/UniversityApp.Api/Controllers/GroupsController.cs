@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using UniversityApi.Data;
 using UniversityApp.Core.Entites;
+using UniversityApp.Service.Dtos;
 using UniversityApp.Service.Dtos.GroupDtos;
 using UniversityApp.Service.Interfaces;
 
@@ -19,9 +20,9 @@ namespace UniversityApi.Controllers
         }
 
         [HttpGet("")]
-        public ActionResult<List<GroupGetDto>> GetAll()
+        public ActionResult<PaginatedList<GroupGetDto>> GetAll(string? search=null,int page=1,int size=10)
         {
-            return StatusCode(200, _groupService.GetAll());
+            return StatusCode(200, _groupService.GetAllByPage(search,page,size));
         }
 
         [HttpGet("{id}")]

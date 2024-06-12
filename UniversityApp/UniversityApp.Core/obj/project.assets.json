@@ -821,11 +821,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\7. 11-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Core\\UniversityApp.Core.csproj",
+      "projectUniqueName": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\8. 12-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Core\\UniversityApp.Core.csproj",
       "projectName": "UniversityApp.Core",
-      "projectPath": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\7. 11-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Core\\UniversityApp.Core.csproj",
+      "projectPath": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\8. 12-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Core\\UniversityApp.Core.csproj",
       "packagesPath": "C:\\Users\\elchin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\7. 11-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Core\\obj\\",
+      "outputPath": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\8. 12-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

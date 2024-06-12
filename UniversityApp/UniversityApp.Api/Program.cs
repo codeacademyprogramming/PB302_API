@@ -17,30 +17,11 @@ using Microsoft.Extensions.DependencyInjection;
 using AutoMapper;
 using UniversityApp.Core.Entites;
 using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
-
-// Add services to the container.
-
-
-builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
-    .AddJwtBearer(options =>
-    {
-        string secret = "my super secret security jwt token my super secret security jwt token";
-        SymmetricSecurityKey key = new SymmetricSecurityKey(System.Text.Encoding.UTF8.GetBytes(secret));
-
-        options.TokenValidationParameters = new TokenValidationParameters
-        {
-            ValidateIssuerSigningKey = true,
-            ValidateIssuer = true,
-            ValidateActor = true,
-            ValidIssuer = "https://localhost:7061/",
-            ValidAudience = "https://localhost:7061/",
-            IssuerSigningKey = key
-        };
-    });
 
 builder.Services.AddControllers().ConfigureApiBehaviorOptions(options =>
 {
@@ -62,7 +43,34 @@ builder.Services.AddIdentity<AppUser, IdentityRole>(opt =>
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerGen(c =>
+{
+    c.SwaggerDoc("v1", new OpenApiInfo
+    {
+        Title = "My API",
+        Version = "v1"
+    });
+    c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+    {
+        In = ParameterLocation.Header,
+        Description = "Please insert JWT with Bearer into field",
+        Name = "Authorization",
+        Type = SecuritySchemeType.ApiKey
+    });
+    c.AddSecurityRequirement(new OpenApiSecurityRequirement {
+   {
+     new OpenApiSecurityScheme
+     {
+       Reference = new OpenApiReference
+       {
+         Type = ReferenceType.SecurityScheme,
+         Id = "Bearer"
+       }
+      },
+      new string[] { }
+    }
+  });
+});
 
 //builder.Services.AddAutoMapper(x => x.AddProfile(typeof(MapProfile)));
 
@@ -91,12 +99,24 @@ builder.Services.AddScoped<IAuthService,AuthService>();
 
 builder.Services.AddFluentValidationRulesToSwagger();
 
+builder.Services.AddAuthentication(opt =>
+{
+    opt.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;
+    opt.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+    opt.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+}).AddJwtBearer(opt =>
+{
+    opt.TokenValidationParameters = new TokenValidationParameters
+    {
+        ValidAudience = builder.Configuration.GetSection("JWT:Audience").Value,
+        ValidIssuer = builder.Configuration.GetSection("JWT:Issuer").Value,
+        IssuerSigningKey = new SymmetricSecurityKey(System.Text.Encoding.UTF8.GetBytes(builder.Configuration["JWT:Secret"]))
+    };
+});
+
 
 
 var app = builder.Build();
-
-
-
 
 app.UseAuthentication();
 app.UseAuthorization();

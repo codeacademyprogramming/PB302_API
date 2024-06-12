@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "wp7wOLgcaa7AhAuId1zLvLvCRQPGCNiti3nDAM6dWWE=",
+  "Hash": "EH3GPDyQR/WupSSo5N+qojInja15QYLiUpq7/Gq/SG8=",
   "Source": "UniversityApp.Api",
   "BasePath": "_content/UniversityApp.Api",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "UniversityApp.Api\\wwwroot",
       "Source": "UniversityApp.Api",
-      "ContentRoot": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\7. 11-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\8. 12-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Api\\wwwroot\\",
       "BasePath": "_content/UniversityApp.Api",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\7. 11-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Api\\wwwroot\\logs\\log-07062024.txt",
+      "Identity": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\8. 12-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Api\\wwwroot\\logs\\log-07062024.txt",
       "SourceId": "UniversityApp.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\7. 11-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\8. 12-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Api\\wwwroot\\",
       "BasePath": "_content/UniversityApp.Api",
       "RelativePath": "logs/log-07062024.txt",
       "AssetKind": "All",
@@ -36,10 +36,10 @@
       "OriginalItemSpec": "wwwroot\\logs\\log-07062024.txt"
     },
     {
-      "Identity": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\7. 11-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Api\\wwwroot\\logs\\log1.txt",
+      "Identity": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\8. 12-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Api\\wwwroot\\logs\\log1.txt",
       "SourceId": "UniversityApp.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\7. 11-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\8. 12-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Api\\wwwroot\\",
       "BasePath": "_content/UniversityApp.Api",
       "RelativePath": "logs/log1.txt",
       "AssetKind": "All",
@@ -55,10 +55,10 @@
       "OriginalItemSpec": "wwwroot\\logs\\log1.txt"
     },
     {
-      "Identity": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\7. 11-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Api\\wwwroot\\logs\\log-10062024.txt",
+      "Identity": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\8. 12-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Api\\wwwroot\\logs\\log-10062024.txt",
       "SourceId": "UniversityApp.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\7. 11-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\8. 12-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Api\\wwwroot\\",
       "BasePath": "_content/UniversityApp.Api",
       "RelativePath": "logs/log-10062024.txt",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\logs\\log-10062024.txt"
     },
     {
-      "Identity": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\7. 11-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Api\\wwwroot\\uploads\\students\\8326e1db-010b-48f8-a7d9-3bb0352f7ce1davamiyyət.png",
+      "Identity": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\8. 12-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Api\\wwwroot\\uploads\\students\\8326e1db-010b-48f8-a7d9-3bb0352f7ce1davamiyyət.png",
       "SourceId": "UniversityApp.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\7. 11-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\8. 12-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Api\\wwwroot\\",
       "BasePath": "_content/UniversityApp.Api",
       "RelativePath": "uploads/students/8326e1db-010b-48f8-a7d9-3bb0352f7ce1davamiyyət.png",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\students\\8326e1db-010b-48f8-a7d9-3bb0352f7ce1davamiyyət.png"
     },
     {
-      "Identity": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\7. 11-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Api\\wwwroot\\uploads\\students\\cfbf3295-67d6-43fa-b63b-f52bb0725cc3davamiyyət.png",
+      "Identity": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\8. 12-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Api\\wwwroot\\uploads\\students\\cfbf3295-67d6-43fa-b63b-f52bb0725cc3davamiyyət.png",
       "SourceId": "UniversityApp.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\7. 11-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\8. 12-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Api\\wwwroot\\",
       "BasePath": "_content/UniversityApp.Api",
       "RelativePath": "uploads/students/cfbf3295-67d6-43fa-b63b-f52bb0725cc3davamiyyət.png",
       "AssetKind": "All",

@@ -7,6 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using UniversityApp.Core.Entites;
 using UniversityApp.Data.Repositories.Interfaces;
+using UniversityApp.Service.Dtos;
 using UniversityApp.Service.Dtos.GroupDtos;
 using UniversityApp.Service.Exceptions;
 using UniversityApp.Service.Interfaces;
@@ -48,10 +49,11 @@ namespace UniversityApp.Service.Implementations
             _groupRepository.Save();
         }
 
-        public List<GroupGetDto> GetAll(string? search=null)
+        public PaginatedList<GroupGetDto> GetAllByPage(string? search = null, int page = 1, int size = 10)
         {
-            var groups = _groupRepository.GetAll(x => search==null || x.No.Contains(search),"Students").ToList();
-            return _mapper.Map<List<GroupGetDto>>(groups);
+            var query = _groupRepository.GetAll(x => search == null || x.No.Contains(search), "Students");
+            var paginated =  PaginatedList<Group>.Create(query, page, size);
+            return new PaginatedList<GroupGetDto>(_mapper.Map<List<GroupGetDto>>(paginated.Items), paginated.TotalPages,page,size);
         }
 
         public GroupGetDto GetById(int id)
