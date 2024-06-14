@@ -24,7 +24,7 @@ namespace UniversityApp.Service.Dtos
 
         public static PaginatedList<T> Create(IQueryable<T>? query, int pageIndex, int pageSize)
         {
-            int totalPages = (int)Math.Ceiling(query.Count() / 2d);
+            int totalPages = (int)Math.Ceiling(query.Count() / (double)pageSize);
             var items = query.Skip((pageIndex - 1) * pageSize).Take(pageSize).ToList();
 
             return new PaginatedList<T>(items, totalPages, pageIndex, pageSize);

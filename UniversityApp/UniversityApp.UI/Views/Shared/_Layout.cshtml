@@ -21,6 +21,10 @@
 
 </head>
 
+@if (TempData["Error"] != null)
+{
+    <span style="display:none" id="error-message" data-message="@TempData["Error"]"></span>
+}
 <body id="page-top">
 
     <!-- Page Wrapper -->
@@ -191,13 +195,17 @@
 
     <!-- Custom scripts for all pages-->
     <script src="~/js/sb-admin-2.min.js"></script>
+    <script>
+        let errorSpan = document.getElementById("error-message");
 
-    <!-- Page level plugins -->
-    <script src="~/vendor/chart.js/Chart.min.js"></script>
+        if (errorSpan) {
+            alert(errorSpan.getAttribute("data-message"))
+        }
 
-    <!-- Page level custom scripts -->
-    <script src="~/js/demo/chart-area-demo.js"></script>
-    <script src="~/js/demo/chart-pie-demo.js"></script>
+    </script>
+
+    @RenderSection("scripts",required:false)
+    <script src="~/js/main.js"></script>
 
 </body>
 

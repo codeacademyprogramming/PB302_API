@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using UniversityApi.Data;
 using UniversityApp.Core.Entites;
@@ -8,6 +9,7 @@ using UniversityApp.Service.Interfaces;
 
 namespace UniversityApi.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class GroupsController : ControllerBase

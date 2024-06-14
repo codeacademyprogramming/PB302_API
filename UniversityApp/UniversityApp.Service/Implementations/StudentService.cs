@@ -11,6 +11,7 @@ using UniversityApi.Data;
 using UniversityApp.Core.Entites;
 using UniversityApp.Data.Repositories;
 using UniversityApp.Data.Repositories.Interfaces;
+using UniversityApp.Service.Dtos;
 using UniversityApp.Service.Dtos.StudentDtos;
 using UniversityApp.Service.Exceptions;
 using UniversityApp.Service.Extentions;
@@ -60,6 +61,15 @@ namespace UniversityApp.Service.Implementations
             _context.SaveChanges();
 
             return entity.Id;
+        }
+
+        public PaginatedList<StudentGetDto> GetAllPaginated(int page = 1, int size = 10)
+        {
+            var query = _studentRepository.GetAll(x => !x.IsDeleted);
+
+            PaginatedList<Student> students = PaginatedList<Student>.Create(query, page, size);
+
+            return new PaginatedList<StudentGetDto>(_mapper.Map<List<StudentGetDto>>(students.Items), students.TotalPages, students.PageIndex, students.PageSize);
         }
 
         public StudentGetDto GetById(int id)

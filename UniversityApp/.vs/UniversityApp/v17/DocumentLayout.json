@@ -1,34 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\8. 12-06-2024\\PB302_API_1\\UniversityApp\\",
+  "WorkspaceRootPath": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\9. 14-06-2024\\PB302_API_1\\UniversityApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2C00093D-ACD8-431B-92F4-82B03E1FC9E4}|UniversityApp.UI\\UniversityApp.UI.csproj|c:\\users\\elchin\\desktop\\codelesson\\api\\8. 12-06-2024\\pb302_api_1\\universityapp\\universityapp.ui\\controllers\\groupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C00093D-ACD8-431B-92F4-82B03E1FC9E4}|UniversityApp.UI\\UniversityApp.UI.csproj|solutionrelative:universityapp.ui\\controllers\\groupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C00093D-ACD8-431B-92F4-82B03E1FC9E4}|UniversityApp.UI\\UniversityApp.UI.csproj|c:\\users\\elchin\\desktop\\codelesson\\api\\8. 12-06-2024\\pb302_api_1\\universityapp\\universityapp.ui\\views\\group\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2C00093D-ACD8-431B-92F4-82B03E1FC9E4}|UniversityApp.UI\\UniversityApp.UI.csproj|solutionrelative:universityapp.ui\\views\\group\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C00093D-ACD8-431B-92F4-82B03E1FC9E4}|UniversityApp.UI\\UniversityApp.UI.csproj|c:\\users\\elchin\\desktop\\codelesson\\api\\8. 12-06-2024\\pb302_api_1\\universityapp\\universityapp.ui\\views\\home\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2C00093D-ACD8-431B-92F4-82B03E1FC9E4}|UniversityApp.UI\\UniversityApp.UI.csproj|solutionrelative:universityapp.ui\\views\\home\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0B69509-4B07-4EFF-9CF8-D7A5402D60FC}|UniversityApp.Api\\UniversityApp.Api.csproj|c:\\users\\elchin\\desktop\\codelesson\\api\\8. 12-06-2024\\pb302_api_1\\universityapp\\universityapp.api\\controllers\\groupscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D0B69509-4B07-4EFF-9CF8-D7A5402D60FC}|UniversityApp.Api\\UniversityApp.Api.csproj|c:\\users\\elchin\\desktop\\codelesson\\api\\9. 14-06-2024\\pb302_api_1\\universityapp\\universityapp.api\\controllers\\groupscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D0B69509-4B07-4EFF-9CF8-D7A5402D60FC}|UniversityApp.Api\\UniversityApp.Api.csproj|solutionrelative:universityapp.api\\controllers\\groupscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{440DA6C4-C0BF-42BC-8E29-C3849A253EEC}|UniversityApp.Service\\UniversityApp.Service.csproj|c:\\users\\elchin\\desktop\\codelesson\\api\\8. 12-06-2024\\pb302_api_1\\universityapp\\universityapp.service\\implementations\\groupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{440DA6C4-C0BF-42BC-8E29-C3849A253EEC}|UniversityApp.Service\\UniversityApp.Service.csproj|solutionrelative:universityapp.service\\implementations\\groupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{440DA6C4-C0BF-42BC-8E29-C3849A253EEC}|UniversityApp.Service\\UniversityApp.Service.csproj|c:\\users\\elchin\\desktop\\codelesson\\api\\8. 12-06-2024\\pb302_api_1\\universityapp\\universityapp.service\\interfaces\\igroupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{440DA6C4-C0BF-42BC-8E29-C3849A253EEC}|UniversityApp.Service\\UniversityApp.Service.csproj|solutionrelative:universityapp.service\\interfaces\\igroupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C00093D-ACD8-431B-92F4-82B03E1FC9E4}|UniversityApp.UI\\UniversityApp.UI.csproj|c:\\users\\elchin\\desktop\\codelesson\\api\\8. 12-06-2024\\pb302_api_1\\universityapp\\universityapp.ui\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C00093D-ACD8-431B-92F4-82B03E1FC9E4}|UniversityApp.UI\\UniversityApp.UI.csproj|solutionrelative:universityapp.ui\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2C00093D-ACD8-431B-92F4-82B03E1FC9E4}|UniversityApp.UI\\UniversityApp.UI.csproj|c:\\users\\elchin\\desktop\\codelesson\\api\\9. 14-06-2024\\pb302_api_1\\universityapp\\universityapp.ui\\controllers\\groupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C00093D-ACD8-431B-92F4-82B03E1FC9E4}|UniversityApp.UI\\UniversityApp.UI.csproj|solutionrelative:universityapp.ui\\controllers\\groupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,97 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "GroupService.cs",
-              "DocumentMoniker": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\8. 12-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Service\\Implementations\\GroupService.cs",
-              "RelativeDocumentMoniker": "UniversityApp.Service\\Implementations\\GroupService.cs",
-              "ToolTip": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\8. 12-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Service\\Implementations\\GroupService.cs",
-              "RelativeToolTip": "UniversityApp.Service\\Implementations\\GroupService.cs",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAwwDMAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T17:07:04.03Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IGroupService.cs",
-              "DocumentMoniker": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\8. 12-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Service\\Interfaces\\IGroupService.cs",
-              "RelativeDocumentMoniker": "UniversityApp.Service\\Interfaces\\IGroupService.cs",
-              "ToolTip": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\8. 12-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Service\\Interfaces\\IGroupService.cs",
-              "RelativeToolTip": "UniversityApp.Service\\Interfaces\\IGroupService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T17:05:42.009Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "GroupsController.cs",
-              "DocumentMoniker": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\8. 12-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Api\\Controllers\\GroupsController.cs",
+              "DocumentMoniker": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\9. 14-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Api\\Controllers\\GroupsController.cs",
               "RelativeDocumentMoniker": "UniversityApp.Api\\Controllers\\GroupsController.cs",
-              "ToolTip": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\8. 12-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Api\\Controllers\\GroupsController.cs",
+              "ToolTip": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\9. 14-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Api\\Controllers\\GroupsController.cs",
               "RelativeToolTip": "UniversityApp.Api\\Controllers\\GroupsController.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAQwBgAAABQAAAA",
+              "ViewState": "AQIAACYAAAAAAAAAAAAIwDQAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T17:04:08.348Z",
+              "WhenOpened": "2024-06-14T17:33:28.87Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\8. 12-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.UI\\Views\\Group\\Index.cshtml",
-              "RelativeDocumentMoniker": "UniversityApp.UI\\Views\\Group\\Index.cshtml",
-              "ToolTip": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\8. 12-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.UI\\Views\\Group\\Index.cshtml",
-              "RelativeToolTip": "UniversityApp.UI\\Views\\Group\\Index.cshtml",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAkwDIAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-12T17:01:36.591Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Error.cshtml",
-              "DocumentMoniker": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\8. 12-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.UI\\Views\\Home\\Error.cshtml",
-              "RelativeDocumentMoniker": "UniversityApp.UI\\Views\\Home\\Error.cshtml",
-              "ToolTip": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\8. 12-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.UI\\Views\\Home\\Error.cshtml",
-              "RelativeToolTip": "UniversityApp.UI\\Views\\Home\\Error.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-12T17:01:19.448Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\8. 12-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.UI\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "UniversityApp.UI\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\8. 12-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.UI\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "UniversityApp.UI\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T16:59:29.664Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "GroupController.cs",
-              "DocumentMoniker": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\8. 12-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.UI\\Controllers\\GroupController.cs",
+              "DocumentMoniker": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\9. 14-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.UI\\Controllers\\GroupController.cs",
               "RelativeDocumentMoniker": "UniversityApp.UI\\Controllers\\GroupController.cs",
-              "ToolTip": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\8. 12-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.UI\\Controllers\\GroupController.cs",
+              "ToolTip": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\9. 14-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.UI\\Controllers\\GroupController.cs",
               "RelativeToolTip": "UniversityApp.UI\\Controllers\\GroupController.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAAByAAAA",
+              "ViewState": "AQIAABMAAAAAAAAAAAAcwCAAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T16:56:48.749Z",
+              "WhenOpened": "2024-06-14T17:31:07.014Z",
               "EditorCaption": ""
             }
           ]

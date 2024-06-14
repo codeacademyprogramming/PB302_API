@@ -51,7 +51,7 @@ namespace UniversityApp.Service.Implementations
 
         public PaginatedList<GroupGetDto> GetAllByPage(string? search = null, int page = 1, int size = 10)
         {
-            var query = _groupRepository.GetAll(x => search == null || x.No.Contains(search), "Students");
+            var query = _groupRepository.GetAll(x => !x.IsDeleted && (search == null || x.No.Contains(search)), "Students");
             var paginated =  PaginatedList<Group>.Create(query, page, size);
             return new PaginatedList<GroupGetDto>(_mapper.Map<List<GroupGetDto>>(paginated.Items), paginated.TotalPages,page,size);
         }

@@ -1,7 +1,10 @@
+using UniversityApp.UI.Filters;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddScoped<AuthFilter>();
 
 var app = builder.Build();
 

@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using UniversityApi.Data;
 using UniversityApp.Core.Entites;
+using UniversityApp.Service.Dtos;
 using UniversityApp.Service.Dtos.StudentDtos;
 using UniversityApp.Service.Interfaces;
 
@@ -33,5 +34,13 @@ namespace UniversityApi.Controllers
         {
             return Ok(_studentService.GetById(id));
         }
+
+        [HttpGet("")]
+        public ActionResult<PaginatedList<StudentGetDto>> GetAll(int page=1,int size = 10)
+        {
+            return Ok(_studentService.GetAllPaginated(page, size));
+        }
+
+
     }
 }
