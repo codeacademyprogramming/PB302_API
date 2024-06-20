@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WSarU1uco3dQ7LhPfHriYvhoMmHA192QMStGU+zrg3EOAjNhkfgAQbXwbcuX+vEYQz68sb17+l1Lxbm7ZehGKg==",
+  "dgSpecHash": "xM+HUzCxeMGiZDGfYuGYtChPd2zmMjcm1t22n48Cwo6bFBZaZVp7hOk29vkHqcWJejnKpOZMBRrKEhIs8SuD3w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\9. 14-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.UI\\UniversityApp.UI.csproj",
+  "projectFilePath": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\10. 20-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.UI\\UniversityApp.UI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\elchin\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\elchin\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

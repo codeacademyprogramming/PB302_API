@@ -1,14 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\9. 14-06-2024\\PB302_API_1\\UniversityApp\\",
+  "WorkspaceRootPath": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\10. 20-06-2024\\PB302_API_1\\UniversityApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D0B69509-4B07-4EFF-9CF8-D7A5402D60FC}|UniversityApp.Api\\UniversityApp.Api.csproj|c:\\users\\elchin\\desktop\\codelesson\\api\\9. 14-06-2024\\pb302_api_1\\universityapp\\universityapp.api\\controllers\\groupscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0B69509-4B07-4EFF-9CF8-D7A5402D60FC}|UniversityApp.Api\\UniversityApp.Api.csproj|solutionrelative:universityapp.api\\controllers\\groupscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2C00093D-ACD8-431B-92F4-82B03E1FC9E4}|UniversityApp.UI\\UniversityApp.UI.csproj|c:\\users\\elchin\\desktop\\codelesson\\api\\10. 20-06-2024\\pb302_api_1\\universityapp\\universityapp.ui\\controllers\\groupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C00093D-ACD8-431B-92F4-82B03E1FC9E4}|UniversityApp.UI\\UniversityApp.UI.csproj|solutionrelative:universityapp.ui\\controllers\\groupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C00093D-ACD8-431B-92F4-82B03E1FC9E4}|UniversityApp.UI\\UniversityApp.UI.csproj|c:\\users\\elchin\\desktop\\codelesson\\api\\9. 14-06-2024\\pb302_api_1\\universityapp\\universityapp.ui\\controllers\\groupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C00093D-ACD8-431B-92F4-82B03E1FC9E4}|UniversityApp.UI\\UniversityApp.UI.csproj|solutionrelative:universityapp.ui\\controllers\\groupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2C00093D-ACD8-431B-92F4-82B03E1FC9E4}|UniversityApp.UI\\UniversityApp.UI.csproj|c:\\users\\elchin\\desktop\\codelesson\\api\\10. 20-06-2024\\pb302_api_1\\universityapp\\universityapp.ui\\services\\icrudservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C00093D-ACD8-431B-92F4-82B03E1FC9E4}|UniversityApp.UI\\UniversityApp.UI.csproj|solutionrelative:universityapp.ui\\services\\icrudservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C00093D-ACD8-431B-92F4-82B03E1FC9E4}|UniversityApp.UI\\UniversityApp.UI.csproj|c:\\users\\elchin\\desktop\\codelesson\\api\\10. 20-06-2024\\pb302_api_1\\universityapp\\universityapp.ui\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C00093D-ACD8-431B-92F4-82B03E1FC9E4}|UniversityApp.UI\\UniversityApp.UI.csproj|solutionrelative:universityapp.ui\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C00093D-ACD8-431B-92F4-82B03E1FC9E4}|UniversityApp.UI\\UniversityApp.UI.csproj|c:\\users\\elchin\\desktop\\codelesson\\api\\10. 20-06-2024\\pb302_api_1\\universityapp\\universityapp.ui\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C00093D-ACD8-431B-92F4-82B03E1FC9E4}|UniversityApp.UI\\UniversityApp.UI.csproj|solutionrelative:universityapp.ui\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C00093D-ACD8-431B-92F4-82B03E1FC9E4}|UniversityApp.UI\\UniversityApp.UI.csproj|c:\\users\\elchin\\desktop\\codelesson\\api\\10. 20-06-2024\\pb302_api_1\\universityapp\\universityapp.ui\\filters\\authfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C00093D-ACD8-431B-92F4-82B03E1FC9E4}|UniversityApp.UI\\UniversityApp.UI.csproj|solutionrelative:universityapp.ui\\filters\\authfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C00093D-ACD8-431B-92F4-82B03E1FC9E4}|UniversityApp.UI\\UniversityApp.UI.csproj|c:\\users\\elchin\\desktop\\codelesson\\api\\10. 20-06-2024\\pb302_api_1\\universityapp\\universityapp.ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C00093D-ACD8-431B-92F4-82B03E1FC9E4}|UniversityApp.UI\\UniversityApp.UI.csproj|solutionrelative:universityapp.ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +34,84 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "GroupsController.cs",
-              "DocumentMoniker": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\9. 14-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Api\\Controllers\\GroupsController.cs",
-              "RelativeDocumentMoniker": "UniversityApp.Api\\Controllers\\GroupsController.cs",
-              "ToolTip": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\9. 14-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Api\\Controllers\\GroupsController.cs",
-              "RelativeToolTip": "UniversityApp.Api\\Controllers\\GroupsController.cs",
-              "ViewState": "AQIAACYAAAAAAAAAAAAIwDQAAAAlAAAA",
+              "DocumentIndex": 1,
+              "Title": "ICrudService.cs",
+              "DocumentMoniker": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\10. 20-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.UI\\Services\\ICrudService.cs",
+              "RelativeDocumentMoniker": "UniversityApp.UI\\Services\\ICrudService.cs",
+              "ToolTip": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\10. 20-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.UI\\Services\\ICrudService.cs",
+              "RelativeToolTip": "UniversityApp.UI\\Services\\ICrudService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T17:33:28.87Z",
+              "WhenOpened": "2024-06-20T17:30:58.964Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GroupController.cs",
-              "DocumentMoniker": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\9. 14-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.UI\\Controllers\\GroupController.cs",
-              "RelativeDocumentMoniker": "UniversityApp.UI\\Controllers\\GroupController.cs",
-              "ToolTip": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\9. 14-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.UI\\Controllers\\GroupController.cs",
-              "RelativeToolTip": "UniversityApp.UI\\Controllers\\GroupController.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAcwCAAAAAmAAAA",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\10. 20-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.UI\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "UniversityApp.UI\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\10. 20-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.UI\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "UniversityApp.UI\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA/AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T17:31:07.014Z",
+              "WhenOpened": "2024-06-20T17:30:35.708Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\10. 20-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.UI\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "UniversityApp.UI\\Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\10. 20-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.UI\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "UniversityApp.UI\\Controllers\\StudentController.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAowDQAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T17:08:21.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthFilter.cs",
+              "DocumentMoniker": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\10. 20-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.UI\\Filters\\AuthFilter.cs",
+              "RelativeDocumentMoniker": "UniversityApp.UI\\Filters\\AuthFilter.cs",
+              "ToolTip": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\10. 20-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.UI\\Filters\\AuthFilter.cs",
+              "RelativeToolTip": "UniversityApp.UI\\Filters\\AuthFilter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T17:06:05.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\10. 20-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.UI\\Program.cs",
+              "RelativeDocumentMoniker": "UniversityApp.UI\\Program.cs",
+              "ToolTip": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\10. 20-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.UI\\Program.cs",
+              "RelativeToolTip": "UniversityApp.UI\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T17:02:13.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GroupController.cs",
+              "DocumentMoniker": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\10. 20-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.UI\\Controllers\\GroupController.cs",
+              "RelativeDocumentMoniker": "UniversityApp.UI\\Controllers\\GroupController.cs",
+              "ToolTip": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\10. 20-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.UI\\Controllers\\GroupController.cs",
+              "RelativeToolTip": "UniversityApp.UI\\Controllers\\GroupController.cs",
+              "ViewState": "AQIAAGIAAAAAAAAAAAAjwHEAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T16:22:17.747Z",
               "EditorCaption": ""
             }
           ]

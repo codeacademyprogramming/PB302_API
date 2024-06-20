@@ -53,5 +53,11 @@ namespace UniversityApi.Controllers
             _groupService.Delete(id);
             return NoContent();
         }
+
+        [HttpGet("all")]
+        public ActionResult<List<GroupListItemGetDto>> GetAll()
+        {
+            return Ok(_groupService.GetAll());  
+        }
     }
 }

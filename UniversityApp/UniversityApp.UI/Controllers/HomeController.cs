@@ -11,8 +11,9 @@ namespace UniversityApp.UI.Controllers
             return View();
         }
 
-        public IActionResult Error()
+        public IActionResult Error(string? message)
         {
+            TempData["Error"] = message??"Something went wrong!";
             return View();
         }
 

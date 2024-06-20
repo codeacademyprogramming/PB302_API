@@ -49,6 +49,11 @@ namespace UniversityApp.Service.Implementations
             _groupRepository.Save();
         }
 
+        public List<GroupListItemGetDto> GetAll()
+        {
+            return _mapper.Map<List<GroupListItemGetDto>>(_groupRepository.GetAll(x => !x.IsDeleted).ToList());
+        }
+
         public PaginatedList<GroupGetDto> GetAllByPage(string? search = null, int page = 1, int size = 10)
         {
             var query = _groupRepository.GetAll(x => !x.IsDeleted && (search == null || x.No.Contains(search)), "Students");

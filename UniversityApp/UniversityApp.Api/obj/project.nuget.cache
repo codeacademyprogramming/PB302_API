@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SMZ1w8uhrY7MEitqc8DG5yATtRUlQqxHQlP95WUm2zatoN0XwdLc3WKMTdVxLY1b/FswXlQtSGh2jLgoPPlhuQ==",
+  "dgSpecHash": "i3fjAt7GxzzB0UBPwXBey5r3lV/qT5WE3o8qW57Kujv5K+iYdjmO4YNLH7XbsQ4bNUehdip+Vgq0MJ/49LQqtQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\9. 14-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Api\\UniversityApp.Api.csproj",
+  "projectFilePath": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\10. 20-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Api\\UniversityApp.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\elchin\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\elchin\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",

@@ -15,5 +15,6 @@ namespace UniversityApp.Service.Interfaces
         GroupGetDto GetById(int id);
         PaginatedList<GroupGetDto> GetAllByPage(string? search=null,int page=1,int size=10);
         void Delete(int id);
+        List<GroupListItemGetDto> GetAll();
     }
 }

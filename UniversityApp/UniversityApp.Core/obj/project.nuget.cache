@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bldhdq03n1ngh4LKtyEPeVlrPZVot2KYnPt3VsQQ8m4YzVFvak0Mr2jejgkBOibl3XjOoweQGF+7m8QVIevryw==",
+  "dgSpecHash": "+ShZxf6uY7wPUqmaf4oxwMjNW+OBI7P3bxa3jERm2f9RVXkBcrP67xG2vS9m3nyRdyO8hAEcpU/PuHhSE1Oj3Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\9. 14-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Core\\UniversityApp.Core.csproj",
+  "projectFilePath": "C:\\Users\\elchin\\Desktop\\CodeLesson\\API\\10. 20-06-2024\\PB302_API_1\\UniversityApp\\UniversityApp.Core\\UniversityApp.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\elchin\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\8.0.6\\microsoft.aspnetcore.cryptography.internal.8.0.6.nupkg.sha512",
     "C:\\Users\\elchin\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\8.0.6\\microsoft.aspnetcore.cryptography.keyderivation.8.0.6.nupkg.sha512",

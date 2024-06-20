@@ -31,6 +31,7 @@ namespace UniversityApp.Service.Profiles
             CreateMap<Group, GroupGetDto>();
             //.ForMember(dest => dest.Name, s => s.MapFrom(s => s.No));
             CreateMap<GroupCreateDto, Group>();
+            CreateMap<Group, GroupListItemGetDto>();
 
             CreateMap<Student, StudentGetDto>()
                 .ForMember(dest => dest.Age, s => s.MapFrom(s => DateTime.Now.Year - s.BirthDate.Year))
