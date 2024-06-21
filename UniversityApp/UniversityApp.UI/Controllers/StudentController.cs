@@ -7,6 +7,7 @@ using Newtonsoft.Json.Linq;
 using System.Drawing;
 using System.Text;
 using System.Text.Json;
+using UniversityApp.UI.Exceptions;
 using UniversityApp.UI.Filters;
 using UniversityApp.UI.Models;
 using UniversityApp.UI.Services;
@@ -70,47 +71,20 @@ namespace UniversityApp.UI.Controllers
         [HttpPost]
         public async Task<IActionResult> Create(StudentCreateRequest createRequest)
         {
-            _client.DefaultRequestHeaders.Add(HeaderNames.Authorization, Request.Cookies["token"]); MultipartFormDataContent content = new MultipartFormDataContent();
-
-            var fileContent = new StreamContent(createRequest.File.OpenReadStream());
-            fileContent.Headers.ContentType = new System.Net.Http.Headers.MediaTypeHeaderValue(createRequest.File.ContentType);
-
-            content.Add(new StringContent(createRequest.FullName), "FullName");
-            content.Add(new StringContent(createRequest.GroupId.ToString()), "GroupId");
-            content.Add(new StringContent(createRequest.Email), "Email");
-            content.Add(new StringContent(createRequest.BirthDate.ToLongDateString()), "BirthDate");
-            //content.Add(new StringContent(JsonSerializer.Serialize(createRequest),System.Text.Encoding.UTF8,"application/json"),"json");
-            content.Add(fileContent, "File", createRequest.File.FileName);
-
-
-            using(var response = await _client.PostAsync("https://localhost:7061/api/students", content))
+            try
             {
-
-                if (response.IsSuccessStatusCode)
-                {
-                    return RedirectToAction("index");
-                }
-                else if (response.StatusCode == System.Net.HttpStatusCode.Unauthorized)
-                {
-                    return RedirectToAction("login", "account");
-                }
-                else if (response.StatusCode == System.Net.HttpStatusCode.BadRequest)
-                {
-                    ViewBag.Groups = await getGroups();
-
-                    var options = new JsonSerializerOptions() { PropertyNameCaseInsensitive = true };
-                    ErrorResponse errorResponse = JsonSerializer.Deserialize<ErrorResponse>(await response.Content.ReadAsStringAsync(), options);
-
-                    foreach (var item in errorResponse.Errors)
-                        ModelState.AddModelError(item.Key, item.Message);
-                    return View();
-                }
-                else
-                {
-                    TempData["Error"] = "Something went wrong!";
-                }
+                await _crudService.CreateFromForm(createRequest, "students");
+                return RedirectToAction("index");
             }
-            return View(createRequest);
+            catch (ModelException ex)
+            {
+                foreach (var item in ex.Error.Errors)
+                    ModelState.AddModelError(item.Key, item.Message);
+
+                ViewBag.Groups = await _crudService.Get<List<GroupListItemGetResponse>>("groups/all");
+
+                return View();
+            }
         }
 
         private async Task<List<GroupListItemGetResponse>> getGroups()

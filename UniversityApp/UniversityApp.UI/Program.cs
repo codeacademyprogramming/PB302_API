@@ -1,4 +1,5 @@
 using UniversityApp.UI.Filters;
+using UniversityApp.UI.Middlewares;
 using UniversityApp.UI.Services;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -28,5 +29,7 @@ app.UseAuthorization();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
+
+app.UseMiddleware<ExceptionHandlerMiddleware>();
 
 app.Run();
