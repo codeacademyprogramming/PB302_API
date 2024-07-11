@@ -45,9 +45,14 @@ builder.Services.AddIdentity<AppUser, IdentityRole>(opt =>
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
 {
-    c.SwaggerDoc("v1", new OpenApiInfo
+    c.SwaggerDoc("admin_api_v1", new OpenApiInfo
     {
-        Title = "My API",
+        Title = "My Admin API",
+        Version = "v1"
+    });
+    c.SwaggerDoc("user_api_v1", new OpenApiInfo
+    {
+        Title = "My User API",
         Version = "v1"
     });
     c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
@@ -126,8 +131,18 @@ app.UseHttpsRedirection();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
-    app.UseSwagger();
-    app.UseSwaggerUI();
+    app.UseSwagger(c =>
+    {
+        c.RouteTemplate = "api/swagger/{documentName}/swagger.json";
+    });
+
+    app.UseSwaggerUI(c =>
+    {
+        c.SwaggerEndpoint("/api/swagger/user_api_v1/swagger.json", "User API  V1");
+        c.SwaggerEndpoint("/api/swagger/admin_api_v1/swagger.json", "Admin API V1");
+
+        c.RoutePrefix = "api/swagger";
+    });
 }
 
 app.UseStaticFiles();

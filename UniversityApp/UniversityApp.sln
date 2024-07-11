@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UniversityApp.Service", "Un
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UniversityApp.Api", "UniversityApp.Api\UniversityApp.Api.csproj", "{D0B69509-4B07-4EFF-9CF8-D7A5402D60FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniversityApp.UI", "UniversityApp.UI\UniversityApp.UI.csproj", "{2C00093D-ACD8-431B-92F4-82B03E1FC9E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UniversityApp.UI", "UniversityApp.UI\UniversityApp.UI.csproj", "{2C00093D-ACD8-431B-92F4-82B03E1FC9E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniversityApp.Api.Test", "UniversityApp.Api.Test\UniversityApp.Api.Test.csproj", "{CD3C3720-E451-4F54-8208-1590CCC6E753}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{2C00093D-ACD8-431B-92F4-82B03E1FC9E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C00093D-ACD8-431B-92F4-82B03E1FC9E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C00093D-ACD8-431B-92F4-82B03E1FC9E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD3C3720-E451-4F54-8208-1590CCC6E753}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD3C3720-E451-4F54-8208-1590CCC6E753}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD3C3720-E451-4F54-8208-1590CCC6E753}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD3C3720-E451-4F54-8208-1590CCC6E753}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

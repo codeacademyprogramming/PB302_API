@@ -122,7 +122,11 @@ namespace UniversityApp.UI.Services
                 var val = prop.GetValue(request);
 
                 if(val is IFormFile file)
-                    content.Add(new StreamContent(file.OpenReadStream()), prop.Name, file.FileName);
+                {
+                    var fileContent = new StreamContent(file.OpenReadStream());
+                    fileContent.Headers.ContentType = new System.Net.Http.Headers.MediaTypeHeaderValue(file.ContentType);
+                    content.Add(fileContent, prop.Name, file.FileName);
+                }
                 else if(val is DateTime dateTime)
                     content.Add(new StringContent(dateTime.ToLongDateString()), prop.Name);
                 else if (val is not null)

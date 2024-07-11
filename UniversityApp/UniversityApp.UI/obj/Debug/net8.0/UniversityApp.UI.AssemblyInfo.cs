@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UniversityApp.UI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0958ba8263335308c5a0bd3b9e2f731ed5bc057c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9758e74a7c1cdd4fcc41f684197abe636ebb6ba9")]
 [assembly: System.Reflection.AssemblyProductAttribute("UniversityApp.UI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UniversityApp.UI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
